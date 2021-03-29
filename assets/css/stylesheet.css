@@ -1,0 +1,156 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 180px 0;
+  background-image: url(../img/homepage.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  height: 700px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #ffa801;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 65px;
+  margin-top: 0px;
+}
+
+.header-img {
+  float: left;
+  background-color: #ff3f34;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #1e272e;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
+/* Ketik code Anda dibawah */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none !important;
+}
+
+.login {
+  background-color: grey ;
+  opacity: 1.0;
+}
+
+.item-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.item-lesson {
+  max-width: 1170px;
+  min-height: 250px;
+  
+}
+
+.item-lesson img{
+  float: left;
+  width: 300px;
+  margin-top: 30px;
+  /*margin: 30px auto;*/
+}
+
+.item-lesson p {
+  float:right;
+  width: 70%;
+  margin-top: 80px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.item-lesson p.left {
+  float:left;
+  width: 70%;
+  margin-top: 80px;
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.item-lesson img.right {
+  float: right;
+  width: 300px;
+  margin-top: 30px;
+  /*margin: 30px auto;*/
+}
+
+
